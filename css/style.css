@@ -1,0 +1,90 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.heading {
+    text-align: center;
+}
+
+.recipe-heading {
+    color: darkred;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+    0% {top: -250px;}
+    100% {top: 40px;}
+}
+
+img {
+    width: 400px;
+    animation: img;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.ingredients {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    color: darkmagenta;
+}
+
+.ingredients-table {
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    animation: ingredientsTable;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ingredientsTable {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.instructions {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    color: darkmagenta;
+    
+}
+
+.instructions ol{
+    margin: 0 auto;
+    width: 75%;
+    position: relative;
+    animation: instructions;
+    animation-duration: 5s;
+}
+
+@keyframes instructions {
+    0% {right: -1000px;}
+    85% {right: 50px;}
+    100% {right: 0;}
+}
+
+.link {
+    text-align: center;
+}
+
+
+
+.footer {
+    color: darkmagenta;
+    text-align: center;
+}
+
